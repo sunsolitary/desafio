@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dive-width, initial-scale=1">
+    <title>Mi primer Website</title>
+    <link rel="stylesheet" type="text/css" href="..//css/mi-primer-website.css">
+    
+</head>
+
+<body>
+
+    <header> <!-- Contenido de la barra de navegación -->
+        <div class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="#" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="about.html">ACERCA DE</a></li>
+                    <li><a href="services.html">SERVICIOS</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+    </header>
+
+    <main> <!-- Contenido principal -->
+        <div class="container">
+            <h1>¡Bienvenidos a mi primer Website!</h1>
+            <section>
+                <div class="row">
+                    <div class="column">
+                        <h2>Presentación</h2>
+                        <p>Soy Margarita Ibarra, ¡y esta es mi primera página web!</p>
+                        <p>Estoy aprendiendo desarrollo web para crear sitios web
+                            visualmente atrapantes y funcionales.</p>
+            </section>
+        </div>
+        <section>
+            <div class="column">
+                <h2>Inicios</h2>
+                <p>Estos son mis primeros pasos para aprender programación</p>
+        </section>
+        </div>
+        </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XqFR2lqBYPs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <!--Para un video propio:
+<video src="nombre-del-video.mp4" controls></video>-->
+
+        <br><br><br>
+        
+
+
+        <br><br><br>
+        <form id="myForm">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <br><br><br>
+    </main>
+
+    <footer> <!-- Contenido del pie de página -->
+                <p>Pongamos información sobre el desarrollador o de la compañía</p>
+                <div class="button-container">
+                    <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+                </div>
+                
+    </footer>
+
+ 
+    <!--Dentro de la etiqueta <header> puedes colocar la barra de navegación o 
+    cualquier otro contenido relacionado con la cabecera de la página, y en el elemento <footer>, 
+        coloca el contenido del pie de página como información de contacto o enlaces adicionales.-->
+        <script src="..//js/script.js"></script>
+</body>
+
+</html>
+
+<!--Comentarios que no se ven reflejados en el front-end-->
